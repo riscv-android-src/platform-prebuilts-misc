@@ -21,6 +21,9 @@ cc_prebuilt_binary {
         android_mips64: {
             srcs: ["android-mips64/gdbserver64"],
         },
+        android_riscv64: {
+            srcs: ["android-riscv64/gdbserver64"],
+        },
         android_x86: {
             srcs: ["android-x86/gdbserver"],
         },
